@@ -4,6 +4,9 @@ const Express=require("express");
 
     app.set('view engine','ejs');
 
+   app.use(Express.static(__dirname+"/public"));
+        ifconfig || grep, "inet"
+
    
     app.get('/',(req,res)=> {
         res.render('index');
@@ -17,7 +20,7 @@ const Express=require("express");
         res.render('register');
     });
     
-    app.listen(3000,()=>{
+    app.listen(process.env.PORT || 3000,()=>{
         console.log("Server running on port::3000...");
     });
 
