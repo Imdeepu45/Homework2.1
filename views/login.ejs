@@ -27,13 +27,14 @@
                 <div class="row">
                     <div class="col col-12  col=sm-6">
                         <table class="table">
-                            <tr><td>Username</td><td><input type="text" class="form-control"></td></tr>
+                            <form action="/read" method="GET">
+                            <tr><td>Username</td><td><input type="text" class="form-control" name="username"></td></tr>
                             <tr><td>Password</td><td><input type="text" class="form-control" placeholder="Password"></td></tr>
-                            <tr><td></td><td><button class="btn btn-info">Log in</button></td></tr>
-                        </table>
+                            <tr><td></td><td><button type="submit" class="btn btn-info">Log in</button></td></tr>
+                        </table></form>
         
         
-                    </div>.
+                    </div>
                 </div>
         
             </div>
