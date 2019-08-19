@@ -5,7 +5,7 @@ const Express=require("express");
     app.set('view engine','ejs');
 
    app.use(Express.static(__dirname+"/public"));
-        ifconfig || grep, "inet"
+       
 
    
     app.get('/',(req,res)=> {
